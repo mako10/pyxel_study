@@ -1,0 +1,23 @@
+# --- Python 関連 (実行時に自動生成されるゴミを無視) ---
+*.pyc
+*.py[cod]
+*.so
+*.egg-info/
+__pycache__/
+.mypy_cache/
+.ruff_cache/
+
+# --- Rust / Node / Build (ビルド生成物を無視) ---
+*.pdb
+node_modules/
+dist/
+dist-*/
+target/
+
+# --- 環境設定 (個人の設定やパスワード、巨大な環境ファイルを無視) ---
+.venv/
+.env
+
+# --- ツール / OS (作業環境特有のゴミを無視) ---
+.claude/
+.DS_Store
